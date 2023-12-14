@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700;900&display=swap');
+
+*{
+    font-family: 'Poppins', 'sans-serif';
+    font-family: 'Playfair Display SC', 'serif';
+}
+
+body{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header{
+    margin-top: 36px;
+    margin-bottom: 58px;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+}
+
+a{
+    color: #07965A;
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.44px;
+    text-decoration: none;
+}
+
+h1{
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+}
+
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tag-teal {
+  background-color: #23c883;
+}
+.tag-purple {
+  background-color: #07965A;
+}
+.tag-pink {
+  background-color: #5f9e84;
+}
+
+.card-body p {
+  font-size: 13px;
+  font-family: 'Poppins';
+  color: black;
+  margin: 0 0 40px;
+}
+.user {
+  display: flex;
+  margin-top: auto;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.user-info h5 {
+  margin: 0;
+}
+
+.user-info small {
+  color: #545d7a;
+  font-family: 'Poppins';
+}

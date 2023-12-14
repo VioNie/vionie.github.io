@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700;900&display=swap');
+
+*{
+    font-family: 'Poppins', 'sans-serif';
+    font-family: 'Playfair Display SC', 'serif';
+}
+
+body{
+    margin-left: 120px;
+    margin-right: 120px;
+    height: 500px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header{
+    margin-top: 36px;
+    margin-bottom: 58px;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+}
+
+a{
+    color: #07965A;
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.44px;
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h1{
+    color: black;
+    font-size: 48px;
+    font-family: 'Playfair Display SC';
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.96px;
+    width: 400px;
+}
+
+.grap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 0px;
+    margin-bottom: 16px;
+    position: relative;
+    right: 115px;
+}
+
+.line{
+    stroke-linejoin: round;
+}
+
+.square{
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    background-color: #07965A;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.rightUser{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    width: 125px;
+}
+
+i{
+    color: #07965A;
+}
+
+
+.leftUser{
+    display: flex;
+    flex-direction: row;
+}
+
+.photo img{
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    margin-right: 12px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.info span{
+    font-family:'Poppins', 'sans-serif';
+}
+
+.info .name{
+    color: #07965A;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.info .date{
+    font-size: 12px;
+}
+
+.rightContent img{
+    position: relative;
+    margin-left: 168px;
+}
+
+.text{
+    width: 604px;
+}
+
+span{
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nPage{
+    display: flex;
+    justify-content: center;
+    margin-top: 68px;
+}
+
+.nPage span{
+    color: #07965A;
+}

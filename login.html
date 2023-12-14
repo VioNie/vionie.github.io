@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Code/CSS/login.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="#">Travel</a>
+                </li>
+                <li>
+                    <a href="article.html">Blog</a>
+                </li>
+                <li>
+                    <a href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Login Form</h2>
+            <form>
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter your username">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password">
+
+                <button id="btn" type="button" onclick="swapColor()">Login</button>
+
+                <div class="switch">Don't have an account? <a href="#">Register here</a></div>
+            </form>
+        </div>
+
+
+        <script>
+
+            var nouvelleCouleur = "#" + Math.floor(Math.random() * 16777215).toString(16);
+            // Définit la fonction à exécuter lors du clic sur le bouton
+            function swapColor() {
+                document.getElementById("btn").style.backgroundColor = nouvelleCouleur;
+            }
+        </script>
+</body>
+
+</html>
